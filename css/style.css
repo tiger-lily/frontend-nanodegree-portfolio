@@ -1,0 +1,55 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+
+h2 {
+    margin: 1.5em 0 1em;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+hr {
+    border-bottom: 3px solid #bcbbbb;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.project-summary {
+    padding: 20px 20px 0px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+a,
+a:visited,
+a:hover,
+a:active
+{
+    color: #bcbbbb; /* Please, how can I apply 3-hexadecimal notation here ? */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+article a {
+    display: block;
+    margin-bottom: 40px;
+    word-wrap: break-word;
+}
